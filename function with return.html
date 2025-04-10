@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // function fullname(fname = "Hello" , lname = "World"){
+        //     var a = fname + " " + lname;
+        //     return a;
+        // }
+        // var fn = fullname ("Daniyal" , "Hasan");
+        // document.write(fn);
+
+        // function sub (maths , eng , sci){
+        //     var sumsub = maths + eng + sci;
+        //     return sumsub;
+        // }
+        // var a = sub (50 , 60 ,70)
+        // document.write(a);
+
+        // function percentage (total){
+        //     var per = total / 300 * 100
+        //     return per;
+        // }
+
+
+        // revise
+
+        function revise (fname = 'Daniyal' , lname = 'Hasan'){
+            var a = fname + ' ' + lname;
+            return a
+        }
+
+        var fn = revise('altaf' , 'bhai')
+        document.write(fn)
+
+        function sub (maths , che , sci){
+            var s = maths + che + sci;
+            return s
+        }
+        function percentage(tt){
+            var d = tt/300 * 100;
+            document.write(d)
+        }
+        var total = sub (60 , 60 , 60);
+        percentage(total)
+
+    </script>
+</body>
+</html>
