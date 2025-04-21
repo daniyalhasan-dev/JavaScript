@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var a = {
+            fname : "Daniyal",
+            lname : "Hasan",
+            age : 20,
+            Movie : ["Money Heist" , "iHostage"],
+            living : {
+                city : "Karachi",
+                country : "Pakistan",
+            },
+            salary : function(){
+            return 100000;
+            },
+            allthings : function(){
+                return this.fname + " " + this.lname + " " + this.age + "<br>"
+            }  
+        }
+        document.write(a.living.country + "<br>");
+        document.write(a.living.city + "<br>");
+        document.write(a.Movie + "<br>");
+        document.write(a.allthings());
+        document.write(a.salary());
+        console.log(a);
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
